@@ -3,5 +3,33 @@
 }
 
 .svg {
-    margin: 40vh 30vw;
+    margin: 10vh 25vw;
+    background-color: white;
+}
+
+body {
+    background-color: pink;
+  }
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    font-family: verdana, sans-serif;
+}
+
+.bar:hover {
+    fill: red;
+    width: 5px;
+}
+
+div#tooltip {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.8);
 }
